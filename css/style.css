@@ -13,6 +13,12 @@
     font-style: normal;
 }
 
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+}
+
 .header {
 	height: 847px;
 	width: 100%;
@@ -20,13 +26,9 @@
 	background-size: cover; 
 	font-family: 'League Gothic Regular', sans-serif;
 
-
 }
 
-		.topwrapper {
-			max-width: 960px;
-			margin: 0 auto;
-			display: flex;
+		.wrapper--top {
 			justify-content: space-between;
 			padding-top: 61px;
 		}
@@ -81,10 +83,7 @@
 			font-family: 'League Gothic Regular', sans-serif;
 		}	
 
-				.slider__wrapper {
-					max-width: 960px;
-					margin: 0 auto;
-					display: flex;
+				.wrapper--slider {
 					justify-content: flex-start;
 				}	
 
@@ -119,7 +118,9 @@
     						margin-top: -17px;
 						}
 
-.container {
-	height: auto;
+.body {
+	background: url("../img/body-bg_01.jpg") repeat-x;
+	background-color: #f9f9f9;
+	height: 950px;
 }
 
