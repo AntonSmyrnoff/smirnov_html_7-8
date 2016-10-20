@@ -74,15 +74,9 @@
 				}
 
 
-
-
-
-
-					
-
-
 		.slider {
 			height: 400px;
+			margin-top: 160px;
 			background-color: rgba(0, 0, 0, 0.2);
 			font-family: 'League Gothic Regular', sans-serif;
 		}	
@@ -91,24 +85,38 @@
 					max-width: 960px;
 					margin: 0 auto;
 					display: flex;
+					justify-content: flex-start;
 				}	
 
+						.slider__text-box {
+							width: 520px;
+							margin-top: 75px;
+						}
+
 						.slider__header {
-							font-size: 60px;
+							font-size: 58px;
 							color: #fff;
 							text-transform: capitalize;
 						}
 
 						.slider__subheader {
-							font-size: 32px;
+							margin-top: -7px;
+							font-size: 30.5px;
 							color: #edbfff;
 							text-transform: uppercase;
 						}
 
 						.slider__paragraph {
+							margin-top: 4px;
+
 							font-family: "Open Sans";
 							font-size: 18px;
 							color: #fff;
+						}
+
+						.slider__image {
+							margin-left: 94px;
+    						margin-top: -17px;
 						}
 
 .container {
