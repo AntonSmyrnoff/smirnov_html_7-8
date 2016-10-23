@@ -140,33 +140,40 @@
 		.wrapper--blurbs {
 			height: 342px;
 			padding-top: 73px;
-			padding-left: 2px;
+			padding-left: 10px;
+
 			justify-content: flex-start;
 
-			font-family: "League Gothic Regular"
+			font-family: "League Gothic Regular";
+			background-color: gold;
 		} 
 
 				.body__blurb {
 					display: flex;
 					width: 33%;
+					background-color: darkgreen;
 				}
 
 				.fa-wrench,
 				.fa-comment {
 					margin-top: 6px;
-					margin-left: 5px;
+					/* margin-left: 5px; */
 					transform: scale(-1,1);
 					color: #fff;
+					display: inline-block;
+					width: 32px;
 				}
 
 				.fa-music {
 					color: #fff;
 					margin-top: 6px;
-					margin-left: 5px;
+					/* margin-left: 5px; */
+					display: inline-block;
+					width: 32px;
 				}
 
 				.body__blurb__box {
-					margin-left: 26px;
+					margin-left: 22px;
 				}
 
 
@@ -199,23 +206,24 @@
 				}
 
 				.body__blurb__readmore {
-					margin-left: 158px;
+					/* margin-left: 158px; */
 					margin-top: 18px;
 					font-size: 18px;
+					float: right;
 					
 					text-shadow: 2px 1px 1px rgba(15, 21, 24, 1);
 					text-transform: uppercase;
 					
 				}
 
-						.body__blurb__readmore--box2 {
+						/* .body__blurb__readmore--box2 {
 							margin-left: 163px;
 						}
-
+						
 						.body__blurb__readmore--box3 {
 							margin-left: 165px;
 						}
-
+						 */
 				.body__blurb__readmore:hover {
 					text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
 				}		
@@ -227,16 +235,24 @@
 				}
 
 						.body__blurb--comments {
-							margin-left: 31px;
-							padding-left: 8px;
+/* margin-left: 31px;
+padding-left: 8px; */
+							margin: 0 58px;
+						}
 
+						.body__blurb__box--box3 {
+							margin-left: 26px;
 						}
 
 						.body__blurb--music {
-							margin-left: 37px;
-							padding-left: 14px;
+							/* margin-left: 26px; */
+							/* padding-left: 14px; */
 
 						}
+
+						/* .icon {
+							width: 37px;
+						} */
 
 
 				
