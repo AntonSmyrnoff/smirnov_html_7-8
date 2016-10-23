@@ -13,6 +13,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('true type'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .wrapper {
 	max-width: 960px;
 	margin: 0 auto;
@@ -123,4 +136,111 @@
 	background-color: #f9f9f9;
 	height: 950px;
 }
+
+		.wrapper--blurbs {
+			height: 342px;
+			padding-top: 73px;
+			padding-left: 2px;
+			justify-content: flex-start;
+
+			font-family: "League Gothic Regular"
+		} 
+
+				.body__blurb {
+					display: flex;
+					width: 33%;
+				}
+
+				.fa-wrench,
+				.fa-comment {
+					margin-top: 6px;
+					margin-left: 5px;
+					transform: scale(-1,1);
+					color: #fff;
+				}
+
+				.fa-music {
+					color: #fff;
+					margin-top: 6px;
+					margin-left: 5px;
+				}
+
+				.body__blurb__box {
+					margin-left: 26px;
+				}
+
+
+				.body__blurb__header {
+					
+
+					text-transform: uppercase;
+					font-size: 29px;
+					color: #fff;
+					text-shadow: 1px 2px 1px rgba(15, 21, 24, 1);
+				}
+						
+						.body__blurb__header--box2 {
+							margin-left: 2px;
+						}
+
+						.body__blurb__header--box3 {
+							margin-left: 3px;
+						}
+
+
+				.body__blurb__paragraph {
+					margin: 7px 0 0 -2px;
+					line-height: 1.5;
+					font-family: 'Open Sans Light';
+					font-size: 16px;
+					color: #fff;
+					text-shadow: 2px 1px 1px rgba(15, 21, 24, 1);
+
+				}
+
+				.body__blurb__readmore {
+					margin-left: 158px;
+					margin-top: 18px;
+					font-size: 18px;
+					
+					text-shadow: 2px 1px 1px rgba(15, 21, 24, 1);
+					text-transform: uppercase;
+					
+				}
+
+						.body__blurb__readmore--box2 {
+							margin-left: 163px;
+						}
+
+						.body__blurb__readmore--box3 {
+							margin-left: 165px;
+						}
+
+				.body__blurb__readmore:hover {
+					text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+				}		
+
+				.body__blurb__link {
+					text-decoration: none;
+					color: #fff;
+
+				}
+
+						.body__blurb--comments {
+							margin-left: 31px;
+							padding-left: 8px;
+
+						}
+
+						.body__blurb--music {
+							margin-left: 37px;
+							padding-left: 14px;
+
+						}
+
+
+				
+
+
+
 
